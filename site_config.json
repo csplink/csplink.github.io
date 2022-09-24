@@ -1,7 +1,7 @@
 {
     "site_name": "teedoc",
     "site_slogon": "happy to write",
-    "site_root_url": "/",
+    "site_root_url": "/csp_wiki",
     "site_domain": "teedoc.neucrack.com",
     "site_protocol": "https",
     "config_template_dir": "config",
