@@ -1,49 +1,23 @@
-teedoc official website
+CSP wiki 文档源码
 =====
 
-visit: [teedoc.neucrack.com](https://teedoc.neucrack.com/) or [teedoc.github.io](https://teedoc.github.io)
+CSP 在线 Wiki: [csp_wiki](https://xqyjlj.github.io/csp_wiki/)
 
 
-## build locally
+## 本地预览
 
-* Install Python3 first
-
-```
-sudo apt install python3 python3-pip
-```
-
-* Install teedoc
-
-```
-pip3 install teedoc
-```
-
-* Get site source files
-
-```
-git clone https://github.com/teedoc/teedoc.github.io my_site
-```
-
-或者
-
-```
-git clone https://github.com/teedoc/teedoc.gitee.io my_site
-```
-
-* Install plugins
-
-```
-cd my_site
+```bash
+git clone https://github.com/xqyjlj/csp_wiki.git
+pip install teedoc
+cd csp_wiki
 teedoc install
-```
-
-* build and serve
-
-```
-teedoc build
 teedoc serve
 ```
 
-then visit [http://127.0.0.1:2333](http://127.0.0.1:2333)
+更多技巧请参阅 [teedoc](http://github.com/teedoc/teedoc)
 
+## 对于管理员
 
+GitHub action 会自动将更改的文档推送到云服务器
+
+但是如果你做了一些特殊的事情，比如强制提交，服务器上可能会丢失一些文件。手动触发 publish pages 操作来构建文档并将所有文件上传到服务器。

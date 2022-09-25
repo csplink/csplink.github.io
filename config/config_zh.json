@@ -1,18 +1,14 @@
 {
     "locale": "zh_CN",
     "navbar": {
-        "title": "teedoc",
+        "title": "wiki",
         "logo": {
             "alt": "teedoc logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/",
         "items": [
-            {
-                "url": "/get_started/zh/",
-                "label": "安装使用",
-                "position": "left"
-            },
+
             {
                 "url": "/develop/zh/",
                 "label": "开发",
@@ -24,12 +20,6 @@
                 "position": "left"
             },
             {
-                "url": "https://github.com/neutree/teedoc",
-                "label": "github",
-                "target": "_blank",
-                "position": "right"
-            },
-            {
                 "id": "language",
                 "label": "Language: ",
                 "position": "right",
@@ -37,8 +27,8 @@
             }
         ]
     },
-    "footer":{
-        "top":[
+    "footer": {
+        "top": [
             {
                 "label": "链接",
                 "items": [
@@ -78,27 +68,7 @@
                     }
                 ]
             }
-        ],
-        "bottom": [
-            {
-                "label": "渝ICP备19015320号",
-                "url": "https://beian.miit.gov.cn",
-                "target": "_blank"
-            },
-            {
-                "label": "粤公网安备44030602004109号",
-                "url": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602004109",
-                "target": "_blank"
-            }
         ]
-    },
-    "plugins": {
-        "teedoc-plugin-ad-hint": {
-            "config": {
-                "label": "☆",
-                "content": "这是一个支持国际化的消息示例</br>喜欢项目请<a target=\"_blank\" href=\"https://github.com/teedoc/teedoc\">点下 ☆ star </a>哦~🦀🦀"
-            }
-        }
     },
     "show_source": "编辑本页"
 }

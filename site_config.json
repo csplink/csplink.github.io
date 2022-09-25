@@ -1,22 +1,20 @@
 {
-    "site_name": "teedoc",
+    "site_name": "csp wiki",
     "site_slogon": "happy to write",
     "site_root_url": "/csp_wiki",
-    "site_domain": "teedoc.neucrack.com",
+    "site_domain": "xqyjlj.github.io/csp_wiki",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/teedoc/teedoc.github.io/blob/main",
+    "source": "https://github.com/xqyjlj/csp_wiki/blob/main",
     "route": {
         "docs": {
-            "/get_started/zh/": "docs/get_started/zh",
             "/develop/zh/": "docs/develop/zh"
         },
         "pages": {
             "/": "pages/index/zh"
         },
         "assets": {
-            "/static/": "static",
-            "/get_started/assets/": "docs/get_started/assets"
+            "/static/": "static"
         },
         "blog": {
             "/blog/": "blog"
@@ -24,11 +22,6 @@
     },
     "translate": {
         "docs": {
-            "/get_started/zh/": [ {
-                    "url": "/get_started/en/",
-                    "src": "docs/get_started/en"
-                }
-            ],
             "/develop/zh/": [ {
                     "url": "/develop/en/",
                     "src": "docs/develop/en"
@@ -48,7 +41,7 @@
         "pip": "pip3"
     },
     "plugins": {
-        "teedoc-plugin-markdown-parser":{
+        "teedoc-plugin-markdown-parser": {
             "from": "pypi",
             "config": {
                 "mathjax": {
@@ -56,27 +49,20 @@
                 }
             }
         },
-        "teedoc-plugin-jupyter-notebook-parser":{
+        "teedoc-plugin-jupyter-notebook-parser": {
             "from": "pypi",
-            "config": {
-            }
-        },
-        "teedoc-plugin-google-translate":{
-            "from": "pypi",
-            "config": {
-                "doc_types": ["blog", "page", "doc"]
-            }
+            "config": {}
         },
         "teedoc-plugin-theme-default":{
             "from": "pypi",
             "config": {
                 "dark": true,
-                "env":{
-                    "main_color": "#4caf7d"
+                "env": {
+                    "main_color": "#94d2ef"
                 }
             }
         },
-        "teedoc-plugin-search":{
+        "teedoc-plugin-search": {
             "from": "pypi",
             "config": {
                 "search_hint": "Search"
@@ -90,8 +76,7 @@
         },
         "teedoc-plugin-blog": {
             "from": "pypi",
-            "config": {
-            }
+            "config": {}
         },
         "teedoc-plugin-ad-hint": {
             "from": "pypi",
@@ -107,12 +92,14 @@
             "from": "pypi",
             "config": {
                 "env": {
-                    "clientID": "9d215c8c4d2357fab5ba",
-                    "clientSecret": "1d641e9f45f74a620a262091409b1d719b626755",
-                    "repo": "teedoc.github.io",
-                    "owner": "teedoc",
-                    "admin": ["Neutree"],
-                    "main_color": "#4caf7d",
+                    "clientID": "18f3d4e6ca21f088c8f1",
+                    "clientSecret": "8a95a858c387c3d88c0c47c8a524519b5e78faee",
+                    "repo": "xqyjlj.github.io/csp_wiki",
+                    "owner": "xqyjlj",
+                    "admin": [
+                        "xqyjlj"
+                    ],
+                    "main_color": "#94d2ef",
                     "second_color": "#0a7d43",
                     "adminAutoCreate": false
                 }
@@ -127,15 +114,15 @@
                 "footer_items": [
                     "/static/js/custom.js"
                 ],
-                "env":{
-                    "main_color": "#4caf7d",
+                "env": {
+                    "main_color": "#94d2ef",
                     "second_color": "#0a7d43"
                 }
             }
         }
     },
     "rebuild_changes_delay": 1,
-    "robots":{
+    "robots": {
         "User-agent": "*"
     },
     "layout_root_dir": "layout"
