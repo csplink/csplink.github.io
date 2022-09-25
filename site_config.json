@@ -2,10 +2,10 @@
     "site_name": "csp wiki",
     "site_slogon": "happy to write",
     "site_root_url": "/csp_wiki",
-    "site_domain": "xqyjlj.github.io/csp_wiki",
+    "site_domain": "csp_wiki",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/xqyjlj/csp_wiki/blob/main",
+    "source": "https://github.com/xqyjlj/csp_wiki/blob/master",
     "route": {
         "docs": {
             "/develop/zh/": "docs/develop/zh"
@@ -94,7 +94,7 @@
                 "env": {
                     "clientID": "18f3d4e6ca21f088c8f1",
                     "clientSecret": "8a95a858c387c3d88c0c47c8a524519b5e78faee",
-                    "repo": "csp_wiki",
+                    "repo": "xqyjlj.github.io/csp_wiki",
                     "owner": "xqyjlj",
                     "admin": [
                         "xqyjlj"
