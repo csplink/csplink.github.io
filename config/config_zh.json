@@ -11,12 +11,12 @@
 
             {
                 "url": "/develop/zh/",
-                "label": "开发",
+                "label": "开发指南",
                 "position": "left"
             },
             {
                 "url": "/blog/",
-                "label": "博客",
+                "label": "博客精选",
                 "position": "left"
             },
             {
@@ -30,21 +30,27 @@
     "footer": {
         "top": [
             {
-                "label": "链接",
+                "label": "其他链接",
                 "items": [
                     {
-                        "label": "网站使用 teedoc 生成",
-                        "url": "https://teedoc.neucrack.com",
+                        "label": "CSP 源代码",
+                        "url": "https://github.com/xqyjlj/csp",
                         "target": "_blank"
                     },
                     {
-                        "label": "Copyright © 2021 Neucrack",
-                        "url": "https://neucrack.com",
+                        "label": "CSP issue",
+                        "url": "https://github.com/xqyjlj/csp/issues",
                         "target": "_blank"
                     },
                     {
-                        "label": "网站地图",
-                        "url": "/sitemap.xml"
+                        "label": "CSP 讨论组",
+                        "url": "https://github.com/xqyjlj/csp/discussions",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "QQ群 444093737",
+                        "url": "https://jq.qq.com/?_wv=1027&k=CWt7TZln",
+                        "target": "_blank"
                     }
                 ]
             },
@@ -52,21 +58,68 @@
                 "label": "源码",
                 "items": [
                     {
+                        "label": "网站源码",
+                        "url": "https://github.com/xqyjlj/csp_wiki",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "CSP 源码",
+                        "url": "https://github.com/xqyjlj/csp",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "label": "关注作者",
+                "items": [
+                    {
                         "label": "github",
-                        "url": "https://github.com/neutree/teedoc",
+                        "url": "https://github.com/xqyjlj",
                         "target": "_blank"
                     },
                     {
                         "label": "gitee",
-                        "url": "https://gitee.com/teedoc/teedoc",
+                        "url": "https://gitee.com/xqyjlj",
                         "target": "_blank"
                     },
                     {
-                        "label": "本网站源文件",
-                        "url": "https://github.com/teedoc/teedoc.github.io",
+                        "label": "博客",
+                        "url": "https://xqyjlj.github.io/",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "B站",
+                        "url": "https://space.bilibili.com/24969427/",
                         "target": "_blank"
                     }
                 ]
+            },
+            {
+                "label": "联系作者",
+                "items": [
+                    {
+                        "label": "邮箱 xqyjlj@126.com",
+                        "url": "xqyjlj@126.com",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "QQ号 2284531143",
+                        "url": "",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "2022-2022 xqyjlj",
+                "url": "xqyjlj@126.com",
+                "target": "_blank"
+            },
+            {
+                "label": "因为搭在Github Pages所以未备案",
+                "url": "https://beian.miit.gov.cn/#/Integrated/index",
+                "target": "_blank"
             }
         ]
     },

@@ -1,7 +1,7 @@
-
 ---
-title: 开源静态文档网站生成工具
-keywords: teedoc, markdown, jupyter notebook, html, 文档生成, 替代gitbook, 网站生成, 静态网站, 文档网站生成, 多文档, 静态博客
-desc: teedoc，开源静态文档网站生成工具，将 markdown 或者 jupyter notbook 转换成 html 静态网页， 用于个人或企业建站，建博客，建资料库，wiki等
-id: home_page
+title: CSP 资料站
+keywords: csp, csp官方, wiki, 文档, 开源软件, 开源硬件, Da-Vinci
+desc: csp的官方文档（Wiki），包含了开源软件和开源硬件资料，AIOT资料等等
+id: home
+layout: home
 ---

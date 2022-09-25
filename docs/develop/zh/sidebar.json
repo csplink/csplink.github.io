@@ -1,12 +1,17 @@
 {
     "items": [
         {
-            "label": "teedoc 开发",
+            "label": "CSP该怎么开发",
             "file": "README.md"
         },
         {
-            "label": "插件开发",
-            "file": "plugins.md"
+            "label": "芯片包开发",
+            "items": [
+                {
+                    "label": "主题",
+                    "file": "chip-package/README.md"
+                }
+            ]
         }
     ]
 }

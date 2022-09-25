@@ -2,7 +2,7 @@
     "site_name": "csp wiki",
     "site_slogon": "happy to write",
     "site_root_url": "/csp_wiki",
-    "site_domain": "csp_wiki",
+    "site_domain": "xqyjlj.github.io/csp_wiki",
     "site_protocol": "https",
     "config_template_dir": "config",
     "source": "https://github.com/xqyjlj/csp_wiki/blob/master",
@@ -83,7 +83,7 @@
             "config": {
                 "type": "hint",
                 "label": "☆",
-                "content": "This is a hint example(support i18n)</br><a target=\"_blank\" href=\"https://github.com/teedoc/teedoc\">Give a ☆ star </a> if you like this project 🦀🦀",
+                "content": "CSP 一款全开源芯片配置软件<a href='https://github.com/xqyjlj/csp'>快来体验吧！</a>",
                 "show_after_s": 432000,
                 "date": "2021-11-16 14:40"
             }
