@@ -61,7 +61,7 @@
             "config": {
                 "dark": true,
                 "env": {
-                    "main_color": "#94d2ef"
+                    "main_color": "#ff6b63"
                 }
             }
         },
@@ -102,7 +102,7 @@
                     "admin": [
                         "xqyjlj"
                     ],
-                    "main_color": "#94d2ef",
+                    "main_color": "#ff6b63",
                     "second_color": "#0a7d43",
                     "adminAutoCreate": false
                 }
@@ -118,7 +118,7 @@
                     "/static/js/custom.js"
                 ],
                 "env": {
-                    "main_color": "#94d2ef",
+                    "main_color": "#ff6b63",
                     "second_color": "#0a7d43"
                 }
             }
