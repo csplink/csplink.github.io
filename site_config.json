@@ -8,7 +8,8 @@
     "source": "https://github.com/xqyjlj/csp_wiki/blob/master",
     "route": {
         "docs": {
-            "/develop/zh/": "docs/develop/zh"
+            "/develop/chip-package/zh/": "docs/develop/chip-package/zh",
+            "/share_docs/zh/": "share_docs/zh"
         },
         "pages": {
             "/": "pages/index/zh"
@@ -22,9 +23,10 @@
     },
     "translate": {
         "docs": {
-            "/develop/zh/": [ {
-                    "url": "/develop/en/",
-                    "src": "docs/develop/en"
+            "/develop/chip-package/zh/": [
+                {
+                    "url": "/develop/chip-package/en/",
+                    "src": "docs/develop/chip-package/en"
                 }
             ]
         },

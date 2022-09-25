@@ -8,16 +8,32 @@
         },
         "home_url": "/",
         "items": [
-
             {
-                "url": "/develop/zh/",
                 "label": "开发指南",
+                "position": "left",
+                "type": "list",
+                "items": [
+                    {
+                        "url": "/develop/chip-package/zh/",
+                        "label": "芯片包开发"
+                    }
+                ]
+            },
+            {
+                "label": "博客精选",
+                "url": "/blog/",
                 "position": "left"
             },
             {
-                "url": "/blog/",
-                "label": "博客精选",
-                "position": "left"
+                "label": "贡献文档",
+                "url": "/share_docs/zh/",
+                "position": "right"
+            },
+            {
+                "label": "Github ",
+                "position": "right",
+                "url": "https://github.com/xqyjlj",
+                "target": "_blank"
             },
             {
                 "id": "language",
