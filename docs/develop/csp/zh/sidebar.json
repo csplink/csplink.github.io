@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "label": "CSP 该如何开发/贡献？",
+            "file": "README.md"
+        },
+        {
+            "label": "开始上手",
+            "file": "start.md"
+        }
+    ]
+}

@@ -8,6 +8,7 @@
     "source": "https://github.com/xqyjlj/csp_wiki/blob/master",
     "route": {
         "docs": {
+            "/develop/csp/zh/": "docs/develop/csp/zh",
             "/develop/chip-package/zh/": "docs/develop/chip-package/zh",
             "/share_docs/zh/": "share_docs/zh"
         },
@@ -16,6 +17,7 @@
         },
         "assets": {
             "/static/": "static",
+            "/develop/csp/assets/": "docs/develop/csp/assets",
             "/develop/chip-package/assets/": "docs/develop/chip-package/assets"
         },
         "blog": {
@@ -24,6 +26,12 @@
     },
     "translate": {
         "docs": {
+            "/develop/csp/zh/": [
+                {
+                    "url": "/develop/csp/en/",
+                    "src": "docs/develop/csp/en"
+                }
+            ],
             "/develop/chip-package/zh/": [
                 {
                     "url": "/develop/chip-package/en/",

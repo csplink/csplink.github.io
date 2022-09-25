@@ -14,6 +14,10 @@
                 "type": "list",
                 "items": [
                     {
+                        "url": "/develop/csp/zh/",
+                        "label": "CSP 开发"
+                    },
+                    {
                         "url": "/develop/chip-package/zh/",
                         "label": "芯片包开发"
                     }
