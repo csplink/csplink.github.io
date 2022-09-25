@@ -1,8 +1,12 @@
 {
     "items": [
         {
-            "label": "主题",
+            "label": "芯片包该如何开发？",
             "file": "README.md"
+        },
+        {
+            "label": "配色选取",
+            "file": "color.md"
         }
     ]
 }

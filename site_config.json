@@ -15,7 +15,8 @@
             "/": "pages/index/zh"
         },
         "assets": {
-            "/static/": "static"
+            "/static/": "static",
+            "/develop/chip-package/assets/": "docs/develop/chip-package/assets"
         },
         "blog": {
             "/blog/": "blog"
