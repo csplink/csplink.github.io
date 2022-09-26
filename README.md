@@ -1,13 +1,13 @@
 CSP wiki 文档源码
 =====
 
-CSP 在线 Wiki: [csp_wiki](https://xqyjlj.github.io/csp_wiki/)
+CSP 在线 Wiki: [csp_wiki](https://csplink.github.io/)
 
 
 ## 本地预览
 
 ```bash
-git clone https://github.com/xqyjlj/csp_wiki.git
+git clone https://github.com/csplink/csplink.github.io.git
 pip install teedoc
 cd csp_wiki
 teedoc install

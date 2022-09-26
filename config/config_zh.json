@@ -36,7 +36,7 @@
             {
                 "label": "Github ",
                 "position": "right",
-                "url": "https://github.com/xqyjlj",
+                "url": "https://github.com/csplink",
                 "target": "_blank"
             },
             {
@@ -54,17 +54,17 @@
                 "items": [
                     {
                         "label": "CSP 源代码",
-                        "url": "https://github.com/xqyjlj/csp",
+                        "url": "https://github.com/csplink/csp",
                         "target": "_blank"
                     },
                     {
                         "label": "CSP issue",
-                        "url": "https://github.com/xqyjlj/csp/issues",
+                        "url": "https://github.com/csplink/csp/issues",
                         "target": "_blank"
                     },
                     {
                         "label": "CSP 讨论组",
-                        "url": "https://github.com/xqyjlj/csp/discussions",
+                        "url": "https://github.com/csplink/csp/discussions",
                         "target": "_blank"
                     },
                     {
@@ -79,12 +79,12 @@
                 "items": [
                     {
                         "label": "网站源码",
-                        "url": "https://github.com/xqyjlj/csp_wiki",
+                        "url": "https://github.com/csplink/csplink.github.io",
                         "target": "_blank"
                     },
                     {
                         "label": "CSP 源码",
-                        "url": "https://github.com/xqyjlj/csp",
+                        "url": "https://github.com/csplink/csp",
                         "target": "_blank"
                     }
                 ]

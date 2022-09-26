@@ -18,9 +18,9 @@ date: 2022-09-25
    ![image-20220821185653176](../assets/start/image-20220821185653176.png)
 
 4. 能够编译并不代表能够正常运行，软件运行需要数据库的支持，在app.xaml.cs中指定了debug下的数据库路径，即与csp同级路径下
-   - 数据库链接: [csp_mcu_db](https://github.com/xqyjlj/csp_mcu_db)
+   - 数据库链接: [csp_mcu_db](https://github.com/csplink/csp_mcu_db)
 
-   - 芯片包：[csp_hal_apm32f1](https://github.com/xqyjlj/csp_hal_apm32f1)
+   - 芯片包：[csp_hal_apm32f1](https://github.com/csplink/csp_hal_apm32f1)
 
    ![image-20220821185931551](../assets/start/image-20220821185931551.png)
 

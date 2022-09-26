@@ -1,11 +1,11 @@
 {
     "site_name": "csp wiki",
     "site_slogon": "happy to write",
-    "site_root_url": "/csp_wiki",
-    "site_domain": "xqyjlj.github.io/csp_wiki",
+    "site_root_url": "/",
+    "site_domain": "csplink.github.io",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/xqyjlj/csp_wiki/blob/master",
+    "source": "https://github.com/csplink/csplink.github.io/blob/master",
     "route": {
         "docs": {
             "/develop/csp/zh/": "docs/develop/csp/zh",
@@ -94,7 +94,7 @@
             "config": {
                 "type": "hint",
                 "label": "☆",
-                "content": "CSP 一款全开源芯片配置软件<a href='https://github.com/xqyjlj/csp'>快来体验吧！</a>",
+                "content": "CSP 一款全开源芯片配置软件<a href='https://github.com/csplink/csp'>快来体验吧！</a>",
                 "show_after_s": 432000,
                 "date": "2021-11-16 14:40"
             }
@@ -105,8 +105,8 @@
                 "env": {
                     "clientID": "18f3d4e6ca21f088c8f1",
                     "clientSecret": "8a95a858c387c3d88c0c47c8a524519b5e78faee",
-                    "repo": "csp_wiki",
-                    "owner": "xqyjlj",
+                    "repo": "csplink.github.io",
+                    "owner": "csplink",
                     "admin": [
                         "xqyjlj"
                     ],
