@@ -46,6 +46,11 @@ jobs:
           echo ::set-output name=out_dir::$out_dir
           remote_addr=`git remote get-url --push origin`
           echo "remote addr: ${remote_addr}"
+
+      - name: push
+        if: github.ref_name == 'master'
+        run: |
+          out_dir=out`python3 -c 'import json; f=open("site_config.json");config=json.load(f);print(config["site_root_url"])'`
           cd $out_dir
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
@@ -57,36 +62,5 @@ jobs:
           git commit -m "rebuild website ad $commit_info"
           remote_addr=`echo $remote_addr|  awk -F'://' '{print $2}'`
           remote_addr=https://${user_name}:${{ github.token }}@${remote_addr}
-
-      - name: push
-        if: github.ref_name == 'master'
-        run: |
           git remote add origin ${remote_addr}
           git push origin HEAD:gh-pages --force
-
-      # - name: Deploy 🚀 to github pages
-      #   uses: JamesIves/github-pages-deploy-action@4.1.4
-      #   with: # more usage visit https://github.com/JamesIves/github-pages-deploy-action
-      #     branch: gh-pages # The branch the action should deploy to.
-      #     folder: ${{ steps.build_doc.outputs.out_dir }} # The folder the action should deploy.
-      #     single-commit: true
-      #     clean: true
-      #     clean-exclude: |
-      #       - .github
-
-# mannually scripts
-          # cd $out_dir
-          # git init
-          # git config user.name ${{ secrets.GIT_NAME }}
-          # git config user.email ${{ secrets.GIT_EMAIL }}
-          # git remote add upstream "git@github.com:${{ secrets.REPO }}.git"
-          # git add -A
-          # git commit -m "rebuild website ad $commit_info"
-          # SSHPATH="$HOME/.ssh"
-          # rm -rf "$SSHPATH"
-          # mkdir -p "$SSHPATH"
-          # echo "${{ secrets.ACCESS_KEY }}" > "$SSHPATH/id_rsa"
-          # chmod 600 "$SSHPATH/id_rsa"
-          # sudo sh -c "echo StrictHostKeyChecking no >>/etc/ssh/ssh_config"
-          # git push upstream HEAD:gh-pages --force
-          
