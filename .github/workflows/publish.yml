@@ -43,10 +43,10 @@ jobs:
           teedoc build
           echo "out dir: ${out_dir}"
           cp -rf .github $out_dir
-          echo "out_dir=$out_dir" >> $out_dir
+          echo "out_dir=${out_dir}" >> $GITHUB_OUTPUT
           remote_addr=`git remote get-url --push origin`
           echo "remote addr: ${remote_addr}"
-          cd $out_dir
+          cd $GITHUB_OUTPUT
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           git config --global init.defaultBranch gh-pages
@@ -87,10 +87,10 @@ jobs:
           teedoc build
           echo "out dir: ${out_dir}"
           cp -rf .github $out_dir
-          echo "out_dir=$out_dir" >> $out_dir
+          echo "out_dir=${out_dir}" >> $GITHUB_OUTPUT
           remote_addr=`git remote get-url --push origin`
           echo "remote addr: ${remote_addr}"
-          cd $out_dir
+          cd $GITHUB_OUTPUT
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           git config --global init.defaultBranch gh-pages
