@@ -9,4 +9,4 @@
 
 [Gitee](https://gitee.com/csplink/csp/)
 [GitHub](https://github.com/csplink/csp/)
-[快速开始](/zh-cn/getting_started)
+[快速开始](/zh-cn/develop/getting_started)
