@@ -1,22 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: ''
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>xmake</title>
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="/assets/npm/docsify/vue.min.css" />
+    <link rel="stylesheet" href="/assets/npm/gitalk/gitalk.min.css" />
+    <style>
+      nav.app-nav li ul {
+        min-width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading ...</div>
+    <script>
+      window.$docsify = {
+        name: "csplink",
+        repo: "https://github.com/csplink/csp",
+        auto2top: true,
+        executeScript: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        mergeNavbar: true,
+        mergeNavbar: true,
+        notFoundPage: true,
+        maxLevel: 6,
+        subMaxLevel: 4,
+        onlyCover: false,
+        coverpage: ["/", "/zh-cn/", "/en-us/"],
+        markdown: {
+          renderer: {
+            image: function (href, title) {
+              return `<img src="${href}"/>`;
+            },
+          },
+        },
+        alias: {},
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: {
+            "/": "搜索",
+            "/zh-cn/": "搜索",
+            "/en-us/": "Type to search",
+          },
+          noData: {
+            "/": "找不到结果",
+            "/zh-cn/": "找不到结果",
+            "/en-us/": "No Results",
+          },
+          depth: 6,
+          namespace: "csplink.github.io",
+          hideOtherSidebarContent: false,
+        },
+        formatUpdated: "{MM}/{DD} {HH}:{mm}",
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              if (/githubusercontent\.com/.test(vm.route.file)) {
+                url = vm.route.file.replace("raw.githubusercontent.com", "github.com").replace(/\/master/, "/blob/master");
+              } else {
+                url = "https://github.com/csplink/csplink.github.io/blob/master/" + vm.route.file;
+              }
+              var editHtml = "[:memo: Edit Document](" + url + ")\n";
+              return (
+                editHtml +
+                html +
+                "\n\n----\n\n" +
+                '<a href="https://csplink.github.io" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Copyright (c) 2022-present xqyjlj<xqyjlj@126.com></a>'
+              );
+            });
+          },
+        ],
+      };
+    </script>
+    <script src="/assets/npm/docsify/docsify.min.js"></script>
+    <script src="/assets/npm/docsify/search.min.js"></script>
+    <script src="/assets/npm/prismjs/prism-c.min.js"></script>
+    <script src="/assets/npm/prismjs/prism-lua.min.js"></script>
+    <script src="/assets/npm/prismjs/prism-bash.min.js"></script>
+    <script src="/assets/npm/docsify/docsify-copy-code.min.js"></script>
+    <!-- gitalk -->
+    <script src="/assets/npm/docsify/gitalk.min.js"></script>
+    <script src="/assets/npm/gitalk/gitalk.min.js"></script>
+    <script>
+      const gitalk = new Gitalk({
+        clientID: "18f3d4e6ca21f088c8f1",
+        clientSecret: "8a95a858c387c3d88c0c47c8a524519b5e78faee",
+        repo: "csplink.github.io",
+        owner: "xqyjlj",
+        admin: ["xqyjlj"],
+        id: location.pathname,
+        pagerDirection: "last",
+        distractionFreeMode: false,
+      });
+    </script>
+    <!-- gitter -->
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: "csplink/csp",
+      };
+    </script>
+    <script src="/assets/npm/gitter-sidecar/sidecar.js" async defer></script>
+  </body>
 </html>
