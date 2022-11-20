@@ -1,0 +1,7 @@
+- Email: [xqyjlj@126.com](mailto:xqyjlj@126.com)
+- Homepage: [csplink.github.io](https://csplink.github.io/#/zh-cn/)
+- Community
+   - [Gitter chat room](https://gitter.im/csplink/csp)
+   - [Github discussion group](https://github.com/csplink/csp/discussions)
+   - QQ group: [444093737](https://jq.qq.com/?_wv=1027&k=CWt7TZln)
+- Source: [Github](https://github.com/csplink/csp), [Gitee](https://gitee.com/csplink/csp)
