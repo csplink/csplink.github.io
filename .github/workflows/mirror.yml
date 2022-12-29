@@ -15,11 +15,3 @@ jobs:
           dest_token: ${{ secrets.GITEE_TOKEN }}
           dest_repo: git@gitee.com:csplink/csplink.git
           dest: gitee
-
-      - name: 👷 build gitee pages
-        uses: csplink/action_gitee_pages@master
-        with:
-          gitee-username: csplinkbot
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: csplink/csplink
-          branch: master
