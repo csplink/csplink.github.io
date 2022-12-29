@@ -13,5 +13,4 @@ jobs:
         with:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           dest_token: ${{ secrets.GITEE_TOKEN }}
-          dest_repo: git@gitee.com:csplink/csplink.gitee.io.git
           dest: gitee
