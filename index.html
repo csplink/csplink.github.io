@@ -34,7 +34,7 @@
         maxLevel: 6,
         subMaxLevel: 4,
         onlyCover: false,
-        coverpage: ["/", "/zh-cn/", "/en-us/"],
+        coverpage: ["/", "/zh-cn/"],
         markdown: {
           renderer: {
             image: function (href, title) {
@@ -47,14 +47,12 @@
           maxAge: 86400000,
           paths: "auto",
           placeholder: {
-            "/": "搜索",
             "/zh-cn/": "搜索",
-            "/en-us/": "Type to search",
+            "/": "Type to search"   
           },
           noData: {
-            "/": "找不到结果",
             "/zh-cn/": "找不到结果",
-            "/en-us/": "No Results",
+            "/": "No Results",
           },
           depth: 6,
           namespace: "csplink.github.io",

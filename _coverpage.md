@@ -2,11 +2,11 @@
 
 # csplink
 
-> 一个全开源的基于Wpf的芯片配置软件系统
+> A fully open source Wpf-based chip configuration software system
 
-- *简单，快速，全开源*
-- *全开源的芯片配置软件系统，让开发人员更快速的对芯片进行评测与使用*
+- *simple, fast, fully open source*
+- *Full open source chip configuration software system, allowing developers to evaluate and use chips faster*
 
 [Gitee](https://gitee.com/csplink/csp/)
 [GitHub](https://github.com/csplink/csp/)
-[快速开始](/zh-cn/develop/getting_started)
+[Quick Start](/develop/getting_started)

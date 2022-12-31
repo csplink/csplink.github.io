@@ -1,5 +1,5 @@
-- [反馈](https://github.com/csplink/csp/issues)
-- [社区](/zh-cn/about/contact)
-- 语言
-  - [:uk: English](/en-us/)
+- [Feedback](https://github.com/csplink/csp/issues)
+- [Community](/about/contact)
+- Languages
+  - [:uk: English](/)
   - [:cn: 中文](/zh-cn/)
