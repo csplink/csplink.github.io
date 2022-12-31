@@ -1,5 +1,5 @@
 - 邮箱：[xqyjlj@126.com](mailto:xqyjlj@126.com)
-- 主页：[csplink.github.io](https://csplink.github.io/#/zh-cn/)
+- 主页：[csplink.github.io](https://csplink.top/#/zh-cn/)
 - 社区
   - [Gitter 聊天室](https://gitter.im/csplink/csp)
   - [Github 讨论组](https://github.com/csplink/csp/discussions)
