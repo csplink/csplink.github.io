@@ -37,7 +37,7 @@
     <i>CSPLink: CSP ecosystem, including CSP and more tools, SDK, software packages, etc.</i><br/>
 </div>
 
-**English** | [中文](zh-cn/README.md)
+**English** | [中文](zh-hans/README.md)
 
 ## ✨ Features
 
